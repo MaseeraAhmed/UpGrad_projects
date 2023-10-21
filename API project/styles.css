@@ -1,0 +1,12 @@
+#allBooks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.book{
+    width: ;
+    height: ;
+    
+}
