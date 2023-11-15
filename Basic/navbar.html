@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: grey;
+        color: antiquewhite;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.1rem;
+        align-items: baseline;
+        background-color: black;
+    }
+    nav>ul{
+        display: flex;
+        list-style: none;
+        padding-left: 0px;
+        gap: 0.6rem;
+    }
+    a:hover {
+        color: blueviolet;
+    }
+    input {
+        width: 20rem;
+        height: auto;
+        padding: 0.2rem;
+
+    }
+    .img-container{
+        height: 16rem;
+    }
+    .img-container>img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+</style>
+<body>
+    <header>
+        <div class="img-container">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="">
+
+        </div>
+    </header>
+    <nav>
+        <h1>MDN Web Docs</h1>
+        <input type="text" placeholder="Search for something"/>
+        <ul>
+            <a href="https://developer.mozilla.org/en-US/docs/Web"><li>Reference</li></a>
+            <a href="/"><li>Tutorial</li></a>
+            <a href="/"><li>MDN Plus</li></a>
+        </ul>
+    </nav>
+</body>
+</html>
