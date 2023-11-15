@@ -1,0 +1,35 @@
+#app{
+    height: 150px;
+    width: 50%;
+    border: solid rgb(156, 155, 155);
+    margin-top: 20rem;
+    margin-left: 25rem;
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px;
+}
+
+
+input{
+    background: transparent;
+    height: 50px;
+    color: rgb(134, 63, 87);
+    background-color: #f5c8c8;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+input[type=text] {
+    border: none;
+}
+
+input:focus {
+    outline:none;
+}
+
+
+.bottom{
+    background-color: #e7f37d;
+    height: 100px;
+    color: brown;
+}
